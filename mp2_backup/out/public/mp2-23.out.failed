@@ -1,0 +1,405 @@
+
+xv6 kernel is booting
+
+[MP2] Slab size: 4
+[FILE] fileinit
+hart 1 starting
+hart 2 starting
+[FILE] filealloc
+init: starting sh
+[FILE] filealloc
+[FILE] fileclose
+$ ls
+[FILE] filealloc
+[FILE] filealloc
+[FILE] fileclose
+.              1 1 1024
+[FILE] filealloc
+[FILE] fileclose
+..             1 1 1024
+[FILE] filealloc
+[FILE] fileclose
+README         2 2 2494
+[FILE] filealloc
+[FILE] fileclose
+cat            2 3 34632
+[FILE] filealloc
+[FILE] fileclose
+echo           2 4 33520
+[FILE] filealloc
+[FILE] fileclose
+forktest       2 5 15720
+[FILE] filealloc
+[FILE] fileclose
+grep           2 6 37960
+[FILE] filealloc
+[FILE] fileclose
+init           2 7 33984
+[FILE] filealloc
+[FILE] fileclose
+kill           2 8 33504
+[FILE] filealloc
+[FILE] fileclose
+ln             2 9 33320
+[FILE] filealloc
+[FILE] fileclose
+ls             2 10 36528
+[FILE] filealloc
+[FILE] fileclose
+mkdir          2 11 33584
+[FILE] filealloc
+[FILE] fileclose
+rm             2 12 33568
+[FILE] filealloc
+[FILE] fileclose
+sh             2 13 55776
+[FILE] filealloc
+[FILE] fileclose
+stressfs       2 14 34296
+[FILE] filealloc
+[FILE] fileclose
+usertests      2 15 180168
+[FILE] filealloc
+[FILE] fileclose
+grind          2 16 49528
+[FILE] filealloc
+[FILE] fileclose
+wc             2 17 35632
+[FILE] filealloc
+[FILE] fileclose
+zombie         2 18 32960
+[FILE] filealloc
+[FILE] fileclose
+debugswitch    2 19 33088
+[FILE] filealloc
+[FILE] fileclose
+prepare        2 20 33872
+[FILE] filealloc
+[FILE] fileclose
+checkstr       2 21 34224
+[FILE] filealloc
+[FILE] fileclose
+gah            2 22 35536
+[FILE] filealloc
+[FILE] fileclose
+oak            2 23 33776
+[FILE] filealloc
+[FILE] fileclose
+oap            2 24 33496
+[FILE] filealloc
+[FILE] fileclose
+tee            2 25 33880
+[FILE] filealloc
+[FILE] fileclose
+mp2            2 26 33064
+[FILE] filealloc
+[FILE] fileclose
+printfslab     2 27 33088
+[FILE] filealloc
+[FILE] fileclose
+console        3 28 0
+[FILE] filealloc
+[FILE] fileclose
+ok             2 29 1469
+[FILE] filealloc
+[FILE] fileclose
+000            2 30 0
+[FILE] filealloc
+[FILE] fileclose
+001            2 31 0
+[FILE] filealloc
+[FILE] fileclose
+002            2 32 0
+[FILE] filealloc
+[FILE] fileclose
+003            2 33 0
+[FILE] filealloc
+[FILE] fileclose
+004            2 34 0
+[FILE] filealloc
+[FILE] fileclose
+005            2 35 0
+[FILE] filealloc
+[FILE] fileclose
+006            2 36 0
+[FILE] filealloc
+[FILE] fileclose
+007            2 37 0
+[FILE] filealloc
+[FILE] fileclose
+008            2 38 0
+[FILE] filealloc
+[FILE] fileclose
+009            2 39 0
+[FILE] filealloc
+[FILE] fileclose
+010            2 40 0
+[FILE] filealloc
+[FILE] fileclose
+011            2 41 0
+[FILE] filealloc
+[FILE] fileclose
+012            2 42 0
+[FILE] filealloc
+[FILE] fileclose
+013            2 43 0
+[FILE] filealloc
+[FILE] fileclose
+014            2 44 0
+[FILE] filealloc
+[FILE] fileclose
+015            2 45 0
+[FILE] filealloc
+[FILE] fileclose
+016            2 46 0
+[FILE] filealloc
+[FILE] fileclose
+017            2 47 0
+[FILE] filealloc
+[FILE] fileclose
+018            2 48 0
+[FILE] filealloc
+[FILE] fileclose
+019            2 49 0
+[FILE] filealloc
+[FILE] fileclose
+020            2 50 0
+[FILE] filealloc
+[FILE] fileclose
+021            2 51 0
+[FILE] filealloc
+[FILE] fileclose
+022            2 52 0
+[FILE] filealloc
+[FILE] fileclose
+023            2 53 0
+[FILE] filealloc
+[FILE] fileclose
+f1             2 54 1469
+[FILE] filealloc
+[FILE] fileclose
+f2             2 55 5
+[FILE] filealloc
+[FILE] fileclose
+f3             2 56 5
+[FILE] filealloc
+[FILE] fileclose
+f4             2 57 5
+[FILE] filealloc
+[FILE] fileclose
+f5             2 58 5
+[FILE] filealloc
+[FILE] fileclose
+f6             2 59 5
+[FILE] filealloc
+[FILE] fileclose
+f8             2 60 3
+[FILE] filealloc
+[FILE] fileclose
+f7             2 61 5
+[FILE] fileclose
+$ echo Ok | gah . 2 | oak end > ok
+[FILE] filealloc
+[FILE] filealloc
+[FILE] filealloc
+[FILE] filealloc
+[FILE] fileclose
+[FILE] filealloc
+[FILE] filealloc
+[FILE] filealloc
+[FILE] fileclose
+[FILE] fileclose
+[FILE] fileclose
+[FILE] fileclose
+[FILE] fileclose
+[FILE] fileclose
+$ ls
+[FILE] filealloc
+[FILE] filealloc
+[FILE] fileclose
+.              1 1 1024
+[FILE] filealloc
+[FILE] fileclose
+..             1 1 1024
+[FILE] filealloc
+[FILE] fileclose
+README         2 2 2494
+[FILE] filealloc
+[FILE] fileclose
+cat            2 3 34632
+[FILE] filealloc
+[FILE] fileclose
+echo           2 4 33520
+[FILE] filealloc
+[FILE] fileclose
+forktest       2 5 15720
+[FILE] filealloc
+[FILE] fileclose
+grep           2 6 37960
+[FILE] filealloc
+[FILE] fileclose
+init           2 7 33984
+[FILE] filealloc
+[FILE] fileclose
+kill           2 8 33504
+[FILE] filealloc
+[FILE] fileclose
+ln             2 9 33320
+[FILE] filealloc
+[FILE] fileclose
+ls             2 10 36528
+[FILE] filealloc
+[FILE] fileclose
+mkdir          2 11 33584
+[FILE] filealloc
+[FILE] fileclose
+rm             2 12 33568
+[FILE] filealloc
+[FILE] fileclose
+sh             2 13 55776
+[FILE] filealloc
+[FILE] fileclose
+stressfs       2 14 34296
+[FILE] filealloc
+[FILE] fileclose
+usertests      2 15 180168
+[FILE] filealloc
+[FILE] fileclose
+grind          2 16 49528
+[FILE] filealloc
+[FILE] fileclose
+wc             2 17 35632
+[FILE] filealloc
+[FILE] fileclose
+zombie         2 18 32960
+[FILE] filealloc
+[FILE] fileclose
+debugswitch    2 19 33088
+[FILE] filealloc
+[FILE] fileclose
+prepare        2 20 33872
+[FILE] filealloc
+[FILE] fileclose
+checkstr       2 21 34224
+[FILE] filealloc
+[FILE] fileclose
+gah            2 22 35536
+[FILE] filealloc
+[FILE] fileclose
+oak            2 23 33776
+[FILE] filealloc
+[FILE] fileclose
+oap            2 24 33496
+[FILE] filealloc
+[FILE] fileclose
+tee            2 25 33880
+[FILE] filealloc
+[FILE] fileclose
+mp2            2 26 33064
+[FILE] filealloc
+[FILE] fileclose
+printfslab     2 27 33088
+[FILE] filealloc
+[FILE] fileclose
+console        3 28 0
+[FILE] filealloc
+[FILE] fileclose
+ok             2 29 2
+[FILE] filealloc
+[FILE] fileclose
+000            2 30 0
+[FILE] filealloc
+[FILE] fileclose
+001            2 31 0
+[FILE] filealloc
+[FILE] fileclose
+002            2 32 0
+[FILE] filealloc
+[FILE] fileclose
+003            2 33 0
+[FILE] filealloc
+[FILE] fileclose
+004            2 34 0
+[FILE] filealloc
+[FILE] fileclose
+005            2 35 0
+[FILE] filealloc
+[FILE] fileclose
+006            2 36 0
+[FILE] filealloc
+[FILE] fileclose
+007            2 37 0
+[FILE] filealloc
+[FILE] fileclose
+008            2 38 0
+[FILE] filealloc
+[FILE] fileclose
+009            2 39 0
+[FILE] filealloc
+[FILE] fileclose
+010            2 40 0
+[FILE] filealloc
+[FILE] fileclose
+011            2 41 0
+[FILE] filealloc
+[FILE] fileclose
+012            2 42 0
+[FILE] filealloc
+[FILE] fileclose
+013            2 43 0
+[FILE] filealloc
+[FILE] fileclose
+014            2 44 0
+[FILE] filealloc
+[FILE] fileclose
+015            2 45 0
+[FILE] filealloc
+[FILE] fileclose
+016            2 46 0
+[FILE] filealloc
+[FILE] fileclose
+017            2 47 0
+[FILE] filealloc
+[FILE] fileclose
+018            2 48 0
+[FILE] filealloc
+[FILE] fileclose
+019            2 49 0
+[FILE] filealloc
+[FILE] fileclose
+020            2 50 0
+[FILE] filealloc
+[FILE] fileclose
+021            2 51 0
+[FILE] filealloc
+[FILE] fileclose
+022            2 52 0
+[FILE] filealloc
+[FILE] fileclose
+023            2 53 0
+[FILE] filealloc
+[FILE] fileclose
+f1             2 54 1469
+[FILE] filealloc
+[FILE] fileclose
+f2             2 55 5
+[FILE] filealloc
+[FILE] fileclose
+f3             2 56 5
+[FILE] filealloc
+[FILE] fileclose
+f4             2 57 5
+[FILE] filealloc
+[FILE] fileclose
+f5             2 58 5
+[FILE] filealloc
+[FILE] fileclose
+f6             2 59 5
+[FILE] filealloc
+[FILE] fileclose
+f8             2 60 3
+[FILE] filealloc
+[FILE] fileclose
+f7             2 61 5
+[FILE] fileclose
+$ qemu-system-riscv64: terminating on signal 15 from pid 1269 (make)

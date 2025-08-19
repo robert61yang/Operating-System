@@ -1,0 +1,19 @@
+
+xv6 kernel is booting
+
+[MP2] Slab size: 4
+[FILE] fileinit
+hart 2 starting
+hart 1 starting
+[FILE] filealloc
+init: starting sh
+[FILE] filealloc
+[FILE] fileclose
+$ echo Ok > ok
+[FILE] filealloc
+[FILE] fileclose
+$ checkstr ok Ok
+[FILE] filealloc
+[FILE] fileclose
+Contents match: 'Ok' equals 'Ok'
+$ qemu-system-riscv64: terminating on signal 15 from pid 660 (make)

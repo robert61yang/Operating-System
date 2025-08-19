@@ -1,0 +1,221 @@
+
+xv6 kernel is booting
+
+[MP2] Slab size: 3
+[FILE] fileinit
+[SLAB] New kmem_cache (name: file, object size: 504 bytes, at: 0x0000000087f59000, max objects per slab: 8, support in cache obj: 7) is created
+hart 2 starting
+hart 1 starting
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59098 in slab 0x0000000087f59000 (file) is allocated and initialized
+init: starting sh
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59290 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59290 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+$ echo Ok | gah . 24 | oak | oap > ok
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59290 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59488 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59680 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59878 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59a70 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59c68 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59488 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087f59488 in slab 0x0000000087f59000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] A new slab 0x0000000087e74000 (file) is allocated
+[SLAB] Object 0x0000000087e74018 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e74210 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e74408 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e74600 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e747f8 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e749f0 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e74be8 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e74de0 in slab 0x0000000087e74000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] A new slab 0x0000000087e8f000 (file) is allocated
+[SLAB] Object 0x0000000087e8f018 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8f210 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8f408 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8f600 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8f7f8 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8f9f0 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8fbe8 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8fde0 in slab 0x0000000087e8f000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] A new slab 0x0000000087e8e000 (file) is allocated
+[SLAB] Object 0x0000000087e8e018 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8e210 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8e408 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8e600 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8e7f8 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8e9f0 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8ebe8 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] filealloc
+[SLAB] Alloc request on cache file
+[SLAB] Object 0x0000000087e8ede0 in slab 0x0000000087e8e000 (file) is allocated and initialized
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59c68 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59878 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+[SLAB] kmem_cache { name: file, object_size: 504, at: 0x0000000087f59000, in_cache_obj: 7 }
+[FILE] fileclose
+[SLAB]  [ cache slabs ]
+[SLAB]   [ slab 0x0000000087f59000 ] { freelist: 0x0000000087f59878, nxt: 0x0000000000000000 }
+[SLAB]    [ idx 0 ] { addr: 0x0000000087f59098, as_ptr: 0x0000000e00000003, as_obj: {tp: 3, ref: 14, readable: 1, writable: 1, pipe: 0x0000000000000000, ip: 0x00000000800353a8, off: 0, major: 1} }
+[SLAB]    [ idx 1 ] { addr: 0x0000000087f59290, as_ptr: 0x0000000100000001, as_obj: {tp: 1, ref: 1, readable: 1, writable: 0, pipe: 0x0000000087f25000, ip: 0x0000000000000000, off: 0, major: 0} }
+[SLAB]    [ idx 2 ] { addr: 0x0000000087f59488, as_ptr: 0x0000000100000002, as_obj: {tp: 2, ref: 1, readable: 0, writable: 1, pipe: 0x0000000000000000, ip: 0x0000000080035430, off: 0, major: 0} }
+[SLAB]    [ idx 3 ] { addr: 0x0000000087f59680, as_ptr: 0x0000000100000001, as_obj: {tp: 1, ref: 1, readable: 1, writable: 0, pipe: 0x0000000087ee9000, ip: 0x0000000000000000, off: 0, major: 0} }
+[SLAB]    [ idx 4 ] { addr: 0x0000000087f59878, as_ptr: 0x0000000087f59c68, as_obj: {tp: -2013946776, ref: 0, readable: 0, writable: 1, pipe: 0x0000000087ee9000, ip: 0x0000000000000000, off: 0, major: 0} }
+[SLAB]    [ idx 5 ] { addr: 0x0000000087f59a70, as_ptr: 0x0000000100000001, as_obj: {tp: 1, ref: 1, readable: 1, writable: 0, pipe: 0x0000000087eaf000, ip: 0x0000000000000000, off: 0, major: 0} }
+[SLAB]    [ idx 6 ] { addr: 0x0000000087f59c68, as_ptr: 0x0000000000000000, as_obj: {tp: 0, ref: 0, readable: 0, writable: 1, pipe: 0x0000000087eaf000, ip: 0x0000000000000000, off: 0, major: 0} }
+[SLAB] print_kmem_cache end
+[SLAB] Free 0x0000000087e74018 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e74210 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e74408 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e74600 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e747f8 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e749f0 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e74be8 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e74de0 in slab 0x0000000087e74000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8f018 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8f210 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8f408 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8f600 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8f7f8 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8f9f0 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8fbe8 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8fde0 in slab 0x0000000087e8f000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8e018 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8e210 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8e408 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8e600 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8e7f8 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8e9f0 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8ebe8 in slab 0x0000000087e8e000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087e8ede0 in slab 0x0000000087e8e000 (file)
+[SLAB] slab 0x0000000087e8e000 (file) is freed due to save memory
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59a70 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59488 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59680 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+[FILE] fileclose
+[SLAB] Free 0x0000000087f59290 in slab 0x0000000087f59000 (file)
+[SLAB] End of free
+$ qemu-system-riscv64: terminating on signal 15 from pid 893 (make)

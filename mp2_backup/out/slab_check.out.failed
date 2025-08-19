@@ -1,0 +1,14 @@
+*** Now run 'gdb' in another window.
+
+xv6 kernel is booting
+
+[MP2] Slab size: 4
+[FILE] fileinit
+hart 1 starting
+hart 2 starting
+[FILE] filealloc
+init: starting sh
+[FILE] filealloc
+[FILE] fileclose
+$ 
+$ qemu-system-riscv64: terminating on signal 15 from pid 237 (make)
